@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+}
+
+h2{
+    color: red;
+}
+
+h3, h4{
+    color: purple;
+}
+
+.navList{
+    text-align: center;
+    list-style: none;
+}
+
+.ul-main-page{
+    list-style-position: inside;
+}
+
+ol.products{
+    list-style-position: inside;
+}
+
+
+
