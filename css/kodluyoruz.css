@@ -4,6 +4,27 @@
 /* class ->   .text-red {} */
 /* id ->      #id-bilgisi {} */
 
+/* CSS Selectors */
+
+ul > li:first-child{
+    color: green;
+}
+
+ul > li:last-child{
+    color: aqua;
+}
+
+li:nth-child(2){
+    color: red;
+    /* listedeki 2.elemanı kırmızı renk yaptık. */
+    /* 2 yerine odd yazarsak -> sıra numaraları tek olan liste elemanlarını kırmızı yapar. */
+}
+
+.color-blue.fw-normal{
+    color: blue;
+    font-weight: normal;
+}
+
 h1, h2, h3, h4, h5, h6{
     font-size: 30px;
     color: #202020;
